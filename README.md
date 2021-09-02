@@ -417,8 +417,6 @@ Los tipos de valores devueltos  `ActionResult`  pueden representar una gama ampl
 
 Examine el método  `PutTodoItem`:
 
-C#Copiar
-
 ```
 // PUT: api/TodoItems/5
 [HttpPut("{id}")]
