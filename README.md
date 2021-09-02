@@ -6,6 +6,33 @@ El objetivo de esta actividad es desarrollar una API con las siguientes caracter
 **![](https://lh3.googleusercontent.com/Vb7t_RUHJYjTDR4ROUSr6SQfCbFDunn4Q0mjovWCzdBOcAi3NzRLjEYoSY_qqXTDT4IBfaJhMuigPIe0hQNHcR9FQrrpqa_vrqhswu_mxYvGo4bz9TK4PjaoZdr60vzkAFhkRbaD=s0)**
 
 
+## Clonar Repositorio (Clone/Checkout)
+**1.Ejecutar comando clone para descargar repositorio:**
+
+ ```bash
+$ git clone https://github.com/utn-frc-iaew-2021/actividad_api_todo_items
+ ```
+
+**2. Ubicarse en la carpeta generada con el nombre del repositorio:**
+
+ ```bash
+$ cd actividad_login_acceso_basedatos
+ ```
+ 
+**3. Crear un nuevo branch (rama)**
+
+Para crear una nueva rama (branch) y saltar a ella, en un solo paso, puedes utilizar el comando git checkout con la opción -b, indicando el nombre del nuevo branch (reemplazando el nro de legajo) de la siguiente forma branch_{legajo}, para el legajo 12345:
+
+ ```bash
+$ git checkout -b branch_12345 
+Switched to a new branch "12345"
+ ```
+
+Y para que se vea reflejada en GitHub:
+ ```bash
+$ git push --set-upstream origin branch_12345
+ ```
+
 ## 1. Crear proyecto
 
 -   Abra el  [terminal integrado](https://code.visualstudio.com/docs/editor/integrated-terminal).
