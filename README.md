@@ -16,7 +16,7 @@ $ git clone https://github.com/utn-frc-iaew-2021/actividad_api_todo_items
 **2. Ubicarse en la carpeta generada con el nombre del repositorio:**
 
  ```bash
-$ cd actividad_login_acceso_basedatos
+$ cd actividad_api_todo_items
  ```
  
 **3. Crear un nuevo branch (rama)**
